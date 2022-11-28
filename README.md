@@ -24,7 +24,7 @@
     - Give the service the Path "/anything"
     - Save/create your new route
 8. To ensure your new httpbin service is working, using your  
-  search engine of choice search "http://localhost:8000/anything"
+  search engine of choice search 'http://localhost:8000/anything'
 9. the output should look similar to this:   
     {
     "args": {}, 
