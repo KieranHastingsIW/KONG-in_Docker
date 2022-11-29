@@ -9,8 +9,6 @@ services:
       POSTGRES_USER: "kong"
       POSTGRES_DB: "kong"
       POSTGRES_PASSWORD: "kong"
-    ports:
-      - "5432:5432"
   kong-bootstrap:
     image: kong/kong-gateway:latest
     hostname: kong-bootstrap
